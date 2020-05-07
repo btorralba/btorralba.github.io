@@ -1,4 +1,4 @@
-I used the # [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/) template in order to faciliate this site. Their copyright can be found below.
+I used the [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/) template in order to faciliate this site. Their copyright can be found below.
 
 ## Copyright and License
 
