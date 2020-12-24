@@ -29,7 +29,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Brandon Torralba</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/newProfile.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,6 +55,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Personal Projects</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -69,7 +72,10 @@
           <div class="subheading mb-5">2115 Summit Avenue · St. Paul, MN 55105 ·
           <a href="mailto:name@email.com">brandon.torralba@stthomas.edu</a>
         </div>
-        <p class="lead mb-5">I am a Computer Science student at the University of St. Thomas. I intend to graduate in the Fall of 2021.</p>
+        <p class="lead mb-5">
+          I am a second year student currently pursuing a degree in Computer Science at the University of St. Thomas in
+          St. Paul, Minnesota. My anticipated graduation is in Fall 2021.
+        </p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/btorralba">
             <i class="fab fa-linkedin-in"></i>
@@ -134,14 +140,18 @@
           <div class="resume-content">
             <h3 class="mb-0">University of St. Thomas</h3>
             <div class="subheading mb-3">Bachelor of Science in Computer Science</div>
-            <div>Relevant Courses (As of Fall 2020):</div>
+            <div>Relevant Courses (As of Spring 2021):</div>
             <ul>
-              <li>CISC 131 - Introduction to Programming (Python)</li>
-              <li>CISC 230 - Object Oriented Design (Java)</li>
+              <li>CISC 131 - Introduction to Programming</li>
+              <li>STAT 220 - Statistics I</li>
+              <li>CISC 230 - Object Oriented Design</li>
               <li>MATH 128 - Discrete Mathematics</li>
-              <li>CISC 231 - Data Structures (Java)</li>
-              <li>CISC 340 - Computer Architecture (Assembly, C)</li>
-              <li>CISC 350 - Information Security (Bash, Python, C)</li>
+              <li>CISC 231 - Data Structures</li>
+              <li>CISC 340 - Computer Architecture</li>
+              <li>CISC 350 - Information Security</li>
+              <li>CISC 380 - Algorithms</li>
+              <li>CISC 410 - Advanced Information Security</li>
+              <li>CISC 440 - Artificial Intelligence and Robotics</li>
             </ul>
             <p>GPA: 3.93 / 4.0 (102 credits) </p>
           </div>
@@ -195,6 +205,18 @@
           <li class="list-inline-item">
             <i class="fab fa-docker"></i>
           </li>
+          <li class="list-inline-item">
+            <i class="fas fa-dharmachakra"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-linux"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-php"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js"></i>
+          </li>
 
 
         </ul>
@@ -222,11 +244,33 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Activities and Interests</h2>
-        <p>On Campus I am involved in: Asian Students in America, Computer Science Club, National Academic Quiz Bowl Tournament (NAQT), Residence Hall Association, and the Sigma Chi Fraternity (Iota Tau Chapter).
-          In the Residence Hall Assocation, I served as a hall representative for the 2019-2020 year. In NAQT, I am a team member for the University team with my specialty being literature and technology.
-          In my chapter of Sigma Chi, I will serve as the Technology Chair and Historian for the 2020-2021 year.</p>
-        <p class="mb-0">In my free time, I like to work out and hang out with friends. I also enjoy camping and spending time outdoors.
-          My favorite camping spot is in Duluth, but I also really enjoyed my time camping in the Florida Keys with the Boy Scouts of America.</p>
+        <p>On Campus I am involved in:</p>
+          <ul>
+            <li>Asian Students in America </li>
+            <li>Computer Science Club </li>
+            <li>National Academic Quiz Bowl Tournament (NAQT) </li>
+            <li> Residence Hall Association </li>
+              <ul>
+                <li>Murray Hall Representative (2019 - 2020)</li>
+              </ul>
+            <li> Sigma Chi Fraternity</li>
+              <ul>
+                <li>Technology Chair/Social Media Chair (May 2020 - December 2020)</li>
+                <li>Ritual Chair (January 2020 - May 2021)</li>
+              </ul>
+            </ul>
+        <br>
+        <p>
+          In my free time, I enjoy:
+          <ul>
+            <li>Reading</li>
+            <li>Exercising</li>
+            <li>Netflix</li>
+            <li>Hanging out with Friends</li>
+            <li>Chess</li>
+          </ul>
+
+        </p>
       </div>
     </section>
 
@@ -260,6 +304,25 @@
         </ul>
       </div>
     </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center"  id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Personal Projects</h2>
+        <h4>Gym Bot</h4>
+        <p>
+          Due to COVID, my University's gym started to use a site that you had to pre-register for workouts on.
+          This seems like a good idea, but the problem was that the slots filled incredibly quickly and you of course also
+          had to pre-register. I constantly forgot to go onto the site and for most of the semester, I was unable to lift
+          in the weight room. Another problem is that the site had tons of ads on it that made trying to sign up incredibly
+          annoying. I read about Selenium and figured that I could probably use it to automate signup. I developed an easy
+          bot that would sign up me up automatically and then used Windows Task Scheduler to make sure that the script
+          was executed daily right when sign-ups were released. I also decided to use a config.json file so that my non-technical
+          friends could also use it without going into the code and changing anything. Below is the gist:
+        </p>
+        <script src="https://gist.github.com/btorralba/8548395fbefce130d908b2ec46d070bb.js"></script>
+      </div>
+    </section>
+
 
   </div>
 
